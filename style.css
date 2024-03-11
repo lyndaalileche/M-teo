@@ -1,0 +1,135 @@
+/* Styles pour le bouton */
+.btn{
+  /* Thermomètre */
+  width: 64px;
+  height: 64px;
+  border-radius: 13px;
+  cursor: pointer;
+}
+
+/* Styles pour la section météo */
+.meteo{
+  background-color:#23A3EA ;
+  width: 219px;
+  height: 425px;
+  gap: 24px;
+}
+
+/* Styles pour l'en-tête */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+/* Styles pour le titre */
+h1{
+  color: #23A3EA;
+}
+
+/* Styles pour la section principale */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: auto;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+}
+
+/* Styles pour la section de recherche */
+.search{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+/* Réinitialisation des marges */
+*{
+  margin: 0;
+}
+
+/* Styles pour les champs de saisie */
+input{
+  background-color: #F0F0F0;
+  border-top-left-radius: 10px;
+  border-end-start-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  gap: 16px;
+}
+
+/* Styles pour la carte */
+#map {
+  width: 655px;
+  height: 425px;
+}
+
+/* Styles pour le conteneur d'autocomplétion */
+#autocomplete-container{
+  width: 100%;
+  height: fit-content;
+  border: black solid 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* Styles pour la carte météo */
+#card{
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  background-color: #23A3EA;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  gap: 32px;
+}
+
+/* Styles pour le conteneur de nom de ville et de date */
+#city-date{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Styles pour les éléments de nom de ville et de date */
+#city-date h3, #temp{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+/* Styles pour la section météo */
+#weather{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* Styles pour les détails supplémentaires (vent, précipitations, humidité) */
+#more-details {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Styles pour les détails du vent, des précipitations et de l'humidité */
+#wind,#precipitation,#humidity{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Styles pour les icônes du vent, des précipitations et de l'humidité */
+#wind img, #precipitation img, #humidity img{
+  height: 13px;
+  width: 10px;
+}
